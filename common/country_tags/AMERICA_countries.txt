@@ -1,0 +1,5 @@
+WCF = "countries/WCF - West_coast.txt"
+USA = "countries/USA - Unit_states_of_emerica.txt"
+RTX = "countries/RTX - Texas.txt"
+RLA = "countries/RLA - Louisiana.txt"
+UFW = "countries/UFW - Union_of_free_western_states.txt"

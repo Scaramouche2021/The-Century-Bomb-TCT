@@ -1,0 +1,318 @@
+ideologies = {
+
+    RS_left = {
+
+        types = {
+
+        }
+
+        color =   { 197 30 100 }
+    }
+
+    RS_middle = {
+
+        types = {
+
+        }
+
+        color =   { 176 28 90 }
+    }
+
+    RS_right = {
+
+        types = {
+
+        }
+
+        color =   { 137 19 68 }
+    }
+
+    ML_left = {
+
+        types = {
+            
+        }
+
+        color =   { 226 93 142 }
+
+    }
+
+    ML_middle = {
+
+        types = {
+            
+        }
+
+        color =   { 254 47 124 }
+
+    }
+
+    ML_right = {
+
+        types = {
+            
+        }
+
+        color =   { 228 0 86 }
+
+    }
+
+    PAG_left = {
+
+        types = {
+            
+        }
+        
+        color =   { 141 86 209 }
+    }
+
+    PAG_middle = {
+
+        types = {
+            
+        }
+        
+        color =   { 171 35 158 }
+    }
+
+    PAG_right = {
+
+        types = {
+            
+        }
+        
+        color =   { 138 23 142 }
+    }
+
+    D_left = {
+
+        types = {
+            
+        }
+
+        color =   { 108 130 245 }
+    }
+
+    D_middle = {
+
+        types = {
+            
+        }
+
+        color =   { 79 99 204 }
+    }
+
+    D_right = {
+
+        types = {
+            
+        }
+
+        color =   { 85 58 174 }
+    }
+
+    NL_left = {
+
+        types = {
+            
+        }
+
+
+        color =   { 60 220 221 }
+    }
+
+    NL_middle = {
+
+        types = {
+            
+        }
+
+
+        color =   { 51 254 255 }
+    }
+
+    NL_right = {
+
+        types = {
+            
+        }
+
+
+        color =   { 35 196 242 }
+    }
+
+    C_left = { 
+
+        types = {
+            
+        }
+
+        color =   { 42 104 129 }
+    }
+
+    C_middle = { 
+
+        types = {
+            
+        }
+
+        color =   { 32 69 84 }
+    }
+
+    C_right = { 
+
+        types = {
+            
+        }
+
+        color =   { 12 60 79 }
+    }
+
+    AP_left = { 
+
+        types = {
+            
+
+        }
+
+        color =   { 196 232 237 }
+
+    }
+
+    AP_middle = { 
+
+        types = {
+            
+
+        }
+
+        color =   { 187 201 203 }
+
+    }
+
+    AP_right = { 
+
+        types = {
+            
+
+        }
+
+        color =   { 100 121 124 }
+
+    }
+
+    SD_left = { 
+
+        types = {
+            
+        }
+        
+        color =   { 107 102 144 }
+    }
+
+    SD_middle = { 
+
+        types = {
+            
+        }
+        
+        color =   { 64 60 92 }
+    }
+
+    SD_right = { 
+
+        types = {
+            
+        }
+        
+        color =   { 36 30 73 }
+    }
+
+    MP_left = {
+
+        types = {
+            
+        }
+
+        color =   { 133 116 196 }
+
+    }
+
+    MP_middle = {
+
+        types = {
+            
+        }
+
+        color =   { 118 103 172 }
+
+    }
+
+    MP_right = {
+
+        types = {
+            
+        }
+
+        color =   { 95 78 155 }
+
+    }
+
+    IN_left = {
+
+        types = {
+
+        }
+
+        color =   { 65 73 67 }
+
+    }
+
+    IN_middle = {
+
+        types = {
+
+        }
+
+        color =   { 41 45 54 }
+
+    }
+
+    IN_right = {
+
+        types = {
+
+        }
+
+        color =   { 19 23 30 }
+
+    }
+
+    A_left = {
+
+        types = {
+            
+        }
+
+        color =   { 79 52 63 }
+    }
+
+    A_middle = {
+
+        types = {
+            
+        }
+
+        color =   { 66 45 47 }
+    }
+
+    A_right = {
+
+        types = {
+            
+        }
+
+        color =   { 44 41 41 }
+    }
+
+}

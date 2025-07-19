@@ -1,0 +1,49 @@
+spriteTypes = {	
+
+	#### Generic continuous goal icons
+
+	SpriteType = {
+	name = "GFX_focus_USA_New_Millennium"
+	texturefile = "gfx\focus\GFX_focus_USA_New_Millennium.png"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_focus_USA_Beautiful_motherland"
+	texturefile = "gfx\focus\GFX_focus_USA_Beautiful_motherland.png"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_focus_USA_Top_of_world"
+	texturefile = "gfx\focus\GFX_focus_USA_Top_of_world.png"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_focus_USA_For_her"
+	texturefile = "gfx\focus\GFX_focus_USA_For_her.png"			
+	}	
+
+	SpriteType = {
+	name = "GFX_focus_USA_Columbia"
+	texturefile = "gfx\focus\GFX_focus_USA_Columbia.png"			
+	}	
+
+	SpriteType = {
+	name = "GFX_focus_USA_For_democracy"
+	texturefile = "gfx\focus\GFX_focus_USA_For_democracy.png"			
+	}	
+
+	SpriteType = {
+	name = "GFX_focus_USA_we_need_to_do_it"
+	texturefile = "gfx\focus\GFX_focus_USA_we_need_to_do_it.png"			
+	}	
+
+	SpriteType = {
+	name = "GFX_focus_USA_contact_west"
+	texturefile = "gfx\focus\GFX_focus_USA_contact_west.png"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_focus_USA_unify_america"
+	texturefile = "gfx\focus\GFX_focus_USA_unify_america.png"			
+	}
+}

@@ -1,0 +1,17 @@
+version="1.15"
+tags={
+	"Ideologies"
+	"Graphics"
+	"Fixes"
+	"Gameplay"
+	"Historical"
+	"Map"
+	"Utilities"
+	"Technologies"
+}
+replace_path="history/states"
+replace_path="map/strategicregions"
+replace_path="localisation/english/strategic_region_names_l_english.yml"
+replace_path="common/ideologies"
+name="TCTmap"
+supported_version="1.15.2"

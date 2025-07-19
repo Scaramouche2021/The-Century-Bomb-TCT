@@ -1,0 +1,26 @@
+
+state={
+	id=1219
+	name="STATE_1219" # sunan
+	
+	state_category = town
+
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		11913 11982 996 13142 1089 4091 11928 7120 10076 12052 10034
+	}
+	manpower=23669300
+	buildings_max_level_factor=1.000
+
+	local_supplies=4.0 
+}

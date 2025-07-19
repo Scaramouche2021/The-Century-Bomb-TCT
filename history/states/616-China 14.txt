@@ -1,0 +1,23 @@
+state={
+	id=616
+	name="STATE_616"
+
+	history={
+		owner = CHI
+
+		add_core_of = CHI
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+	 	4783 5031 7727 7803 8055 8102 8127 12750 10899 7511 
+	}
+	manpower=1427893
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=0.0 
+}

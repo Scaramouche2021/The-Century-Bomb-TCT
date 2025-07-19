@@ -1,0 +1,53 @@
+bookmarks = {
+	bookmark = {
+		name = "NORTHAMERICA_NAME"
+		desc = "NORTHAMERICA_DESC"
+		date = 2000.1.1.12
+		picture = "GFX_select_continent_nor"
+		default_country = "GER"
+	
+
+		USA = {
+			history = USA_NORTHAMERICA_DESC
+			ideology = democratic
+			ideas = {
+				home_of_the_free
+				great_depression_3
+				air_war_plans_division_focus
+				USA_war_department
+				new_deal
+			}
+			focuses = {
+				USA_war_plan_black
+				USA_arsenal_of_democracy
+				USA_selective_training_act
+			}
+		}
+
+
+		"---"={
+			history = "OTHER_NORTHAMERICA_DESC"
+		}
+
+		# minors from DLC ####
+#		"CAN"={
+#			minor = yes
+#			history = "CAN_NORTHAMERICA_DESC"
+#			ideology = democratic
+#			ideas = {
+#				CAN_great_depression_1
+#				CAN_conscription_crisis
+#			}
+#			focuses = {
+#				CAN_skewer_the_eagle
+#				CAN_north_american_alliance
+#				CAN_join_comintern
+#			}
+#		}
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

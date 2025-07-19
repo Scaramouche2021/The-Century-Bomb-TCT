@@ -1,0 +1,29 @@
+state={
+	id=1217
+	name="STATE_1217"
+	resources={
+		tungsten = 6
+	}
+
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 2
+			arms_factory = 2
+		}
+
+
+	}
+
+	provinces={
+		7201 4896 10006 7279 7434 7101 12086
+	}
+	manpower=20293700
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,172 @@
+shared_focus = {
+	id = USA_New_Millennium
+	icon = GFX_focus_USA_New_Millennium
+	x = 7
+	y = 1
+	cost = 2
+	ai_will_do = {
+		base = 100
+	}
+	completion_reward = {
+		country_event = { id = germany.1 days = 1 }
+		add_stability = -0.05
+		log = "[GetDateText]: [Root.GetName]: GER_current_situation"
+	}
+	dynamic = yes
+}
+
+shared_focus = {
+	id = USA_Beautiful_motherland
+	icon = GFX_focus_USA_Beautiful_motherland
+	relative_position_id = USA_New_Millennium
+	x = -2
+	y = 1
+	cost = 2
+	ai_will_do = {
+		base = 100
+	}
+	prerequisite = { focus = USA_New_Millennium }
+	completion_reward = {
+		country_event = { id = germany.1 days = 1 }
+		add_stability = -0.05
+		log = "[GetDateText]: [Root.GetName]: GER_current_situation"
+	}
+	dynamic = yes
+}
+
+shared_focus = {
+	id = USA_Top_of_world
+	icon = GFX_focus_USA_Top_of_world
+	relative_position_id = USA_Beautiful_motherland
+	x = 0
+	y = 1
+	cost = 2
+	ai_will_do = {
+		base = 100
+	}
+	prerequisite = { focus = USA_Beautiful_motherland }
+	completion_reward = {
+		country_event = { id = germany.1 days = 1 }
+		add_stability = -0.05
+		log = "[GetDateText]: [Root.GetName]: GER_current_situation"
+	}
+	dynamic = yes
+}
+
+shared_focus = {
+	id = USA_For_her
+	icon = GFX_focus_USA_For_her
+	relative_position_id = USA_New_Millennium
+	x = 0
+	y = 1
+	cost = 2
+	ai_will_do = {
+		base = 100
+	}
+	prerequisite = { focus = USA_New_Millennium }
+	completion_reward = {
+		country_event = { id = germany.1 days = 1 }
+		add_stability = -0.05
+		log = "[GetDateText]: [Root.GetName]: GER_current_situation"
+	}
+	dynamic = yes
+}
+
+shared_focus = {
+	id = USA_Columbia
+	icon = GFX_focus_USA_Columbia
+	relative_position_id = USA_For_her
+	x = 0
+	y = 1
+	cost = 2
+	ai_will_do = {
+		base = 100
+	}
+	prerequisite = { focus = USA_For_her }
+	completion_reward = {
+		country_event = { id = germany.1 days = 1 }
+		add_stability = -0.05
+		log = "[GetDateText]: [Root.GetName]: GER_current_situation"
+	}
+	dynamic = yes
+}
+
+shared_focus = {
+	id = USA_For_democracy
+	icon = GFX_focus_USA_For_democracy
+	relative_position_id = USA_New_Millennium
+	x = 2
+	y = 1
+	cost = 2
+	ai_will_do = {
+		base = 100
+	}
+	prerequisite = { focus = USA_New_Millennium }
+	completion_reward = {
+		country_event = { id = germany.1 days = 1 }
+		add_stability = -0.05
+		log = "[GetDateText]: [Root.GetName]: GER_current_situation"
+	}
+	dynamic = yes
+}
+
+shared_focus = {
+	id = USA_we_need_to_do_it
+	icon = GFX_focus_USA_we_need_to_do_it
+	relative_position_id = USA_For_democracy
+	x = 0
+	y = 1
+	cost = 2
+	ai_will_do = {
+		base = 100
+	}
+	prerequisite = { focus = USA_For_democracy }
+	completion_reward = {
+		country_event = { id = germany.1 days = 1 }
+		add_stability = -0.05
+		log = "[GetDateText]: [Root.GetName]: GER_current_situation"
+	}
+	dynamic = yes
+}
+
+shared_focus = {
+	id = USA_contact_west
+	icon = GFX_focus_USA_contact_west
+	relative_position_id = USA_Columbia
+	x = 0
+	y = 1
+	cost = 2
+	ai_will_do = {
+		base = 100
+	}
+
+	prerequisite = { focus = USA_we_need_to_do_it }
+	prerequisite = { focus = USA_Columbia }
+	prerequisite = { focus = USA_Top_of_world } 
+	
+	completion_reward = {
+		country_event = { id = germany.1 days = 1 }
+		add_stability = -0.05
+		log = "[GetDateText]: [Root.GetName]: GER_current_situation"
+	}
+	dynamic = yes
+}
+
+shared_focus = {
+	id = USA_unify_america
+	icon = GFX_focus_USA_unify_america
+	relative_position_id = USA_contact_west
+	x = 0
+	y = 2
+	cost = 2
+	ai_will_do = {
+		base = 100
+	}
+	prerequisite = { focus = USA_contact_west}
+	completion_reward = {
+		country_event = { id = germany.1 days = 1 }
+		add_stability = -0.05
+		log = "[GetDateText]: [Root.GetName]: GER_current_situation"
+	}
+	dynamic = yes
+}

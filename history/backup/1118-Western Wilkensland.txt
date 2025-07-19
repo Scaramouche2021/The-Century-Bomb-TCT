@@ -1,0 +1,14 @@
+state={
+	id=1118
+	name="STATE_1118"
+	manpower=43
+
+	state_category = small_island
+
+	history={
+		owner = AST	
+		add_core_of = AST
+	}
+	
+	provinces={ 13223}
+}

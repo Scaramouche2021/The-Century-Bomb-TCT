@@ -1,0 +1,14 @@
+state={
+	id=1112
+	name="STATE_1112"
+	manpower=549
+
+	state_category = small_island
+
+	history={
+		owner = PHI	
+		add_core_of = PHI
+	}
+	
+	provinces={ 13225 }
+}

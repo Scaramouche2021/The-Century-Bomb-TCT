@@ -1,0 +1,27 @@
+state={
+	id=610
+	name="STATE_610"
+	provinces={
+		972 3828 3881 7575 7633 9873 9831 6988 10426 4514 9927 6852 11836
+	}
+	history={
+		owner = CHI
+
+		add_core_of = CHI
+
+		
+		buildings = {
+			infrastructure = 2 #was 4
+
+		}
+		victory_points = {
+			7633 1
+		}
+
+
+	}
+	manpower=1475377
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

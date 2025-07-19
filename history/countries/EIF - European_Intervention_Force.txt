@@ -1,0 +1,27 @@
+capital = 3501
+
+set_stability = 0
+set_war_support = 0
+
+add_ideas = {
+	undisturbed_isolation
+	disarmed_nation
+	closed_economy 
+}
+
+set_technology = {
+
+}
+
+
+
+set_politics = {
+	ruling_party = D_right
+	last_election = "1.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	D_right = 1
+}

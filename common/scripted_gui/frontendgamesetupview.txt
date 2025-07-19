@@ -1,0 +1,15 @@
+#scripted_gui = {
+#	continents_gui ={
+#		context_type = selected_country_context
+#		window_name = "continents"
+#		dynamic_lists = {
+#			continents_grid = {
+#				array = grid_continents_array
+#				index = idx
+#				value = v
+#				change_scope = yes
+#				entry_contaniner = continents_entry
+#			}
+#		}
+#	}
+#}

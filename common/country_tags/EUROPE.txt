@@ -1,0 +1,6 @@
+CRO = "countries/WAU - CRO - Croatia.txt"
+BRT = "countries/BRT - British_Revolutionary_Army.txt"
+NND = "countries/NND - New_National_Defense_Army.txt"
+BRS = "countries/BRS - British_Rose_Army.txt"
+EIF = "countries/EIF - European_Intervention_Force.txt"
+SWO = "countries/SWO - Soviet_World_Oil.txt"

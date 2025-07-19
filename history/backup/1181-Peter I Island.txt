@@ -1,0 +1,17 @@
+state={
+	id=1181
+	name="STATE_1181"
+	provinces={  14065 }
+	manpower=30
+	state_category = small_island
+	history={
+		owner = ANT
+		add_claim_by = NOR
+		buildings = {
+			infrastructure = 1
+			14065 = {
+				naval_base = 1
+			}
+		}
+	}
+}

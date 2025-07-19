@@ -1,0 +1,2 @@
+WAU = "countries/WAU - West_african_union.txt"
+ARA = "countries/ARA - African_resource_assistance_alliance.txt"
