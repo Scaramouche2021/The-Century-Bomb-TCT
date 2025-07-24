@@ -1,11 +1,11 @@
-state={
+state={ 
 	id=1044
 	name="STATE_1044"
 	provinces={
 		6997 
 	}
 	history={
-		owner = AZR
+		owner = ARM
 		add_core_of = SOV
 		buildings = {
 			infrastructure = 1
@@ -15,6 +15,7 @@ state={
 			6997 1
 		}
 		add_claim_by = ARM
+		add_core_of = ARM
 		add_core_of = AZR
 
 	}

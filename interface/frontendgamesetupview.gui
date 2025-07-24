@@ -31,9 +31,9 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "date"
-			position = { x = 22 y = 147 }
+			position = { x = 300 y = 70 }
 			font = "hoi_20b"
-			borderSize = {x = 0 y = 0}
+			borderSize = {x = 100 y = 0}
 			text = "FE_BOOKMARK_DATE"
 			maxWidth = 185
 			maxHeight = 20
@@ -512,11 +512,11 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "title"
-			position = { x = 120 y = 14 }
+			position = { x = 1427 y = 610 }
 			textureFile = ""
 			font = "hoi_20b"
 			borderSize = {x = 0 y = 0}
-			text = "FE_SELECT_SCENARIO"
+			text = " "
 			maxWidth = 340
 			maxHeight = 30
 			format = center
@@ -534,31 +534,32 @@ guiTypes = {
 
 			gridboxType = {
 				name ="bookmarks_grid"
-				position = { x = 0 y = -490 }
+				position = { x = 0 y = -430 }
 				Orientation = UPPER_LEFT
 				size = { width = 100%% height = 100%% }
-				slotsize = { width = 260 height = 215 }
+				slotsize = { width = 260 height = 180 }
 				add_horizontal = no
-				max_slots_vertical = 7
+				max_slots_vertical = 8
 				format = "UPPER_LEFT"
 			}
 		}
 
 		instantTextBoxType = {
 			name = "history_title"
-			position = { x = 110 y = 274 }
+			position = { x = 1427 y = 650 }
 			font = "hoi_20b"
 			borderSize = {x = 0 y = 0}
 			text = "BM_HISTORY_TITLE"
-			maxWidth = 340
+			maxWidth = 470
 			maxHeight = 30
 			format = centre
 		}
 
 		instantTextBoxType = {
 			name = "bookmark_title"
-			position = { x = 25 y = 305 }
-			font = "hoi4_typewriter22"
+			position = { x = 1427  y = 690 }
+			font = "hoi_20b"
+			#"hoi4_typewriter22"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 340
 			maxHeight = 30
@@ -567,17 +568,90 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "bookmark_desc"
-			position = { x = 25 y = 330 }
-			font = "hoi4_typewriter16"
+			position = { x = 1427 y = 720 }
+			font = "hoi_20b"
+			#"hoi4_typewriter16"
 			borderSize = {x = 0 y = 0}
-			maxWidth = 540
+			maxWidth = 200
 			maxHeight = 30
 			format = left
 		}
 
+		instantTextBoxType = {
+			name = "AF"
+			position = { x = 375 y = 110 }
+			font = "hoi4_typewriter22"
+			#"hoi4_typewriter16"
+			borderSize = {x = 0 y = 0}
+			text = "AFRICA_NAME"
+			maxWidth = 40
+			maxHeight = 30
+			format = centre
+		}
+
+		instantTextBoxType = {
+			name = "AS"
+			position = { x = 375 y = 290 }
+			font = "hoi4_typewriter22"
+			#"hoi4_typewriter16"
+			borderSize = {x = 0 y = 0}
+			text = "ASIA_NAME"
+			maxWidth = 40
+			maxHeight = 30
+			format = centre
+		}
+
+		instantTextBoxType = {
+			name = "EU"
+			position = { x = 375 y = 470 }
+			font = "hoi4_typewriter22"
+			#"hoi4_typewriter16"
+			borderSize = {x = 0 y = 0}
+			text = "EUROPR_NAME"
+			maxWidth = 40
+			maxHeight = 30
+			format = centre
+		}
+
+		instantTextBoxType = {
+			name = "MI"
+			position = { x = 375 y = 650 }
+			font = "hoi4_typewriter22"
+			#"hoi4_typewriter16"
+			borderSize = {x = 0 y = 0}
+			text = "MIDDLEEAST_NAME"
+			maxWidth = 40
+			maxHeight = 30
+			format = centre
+		}
+
+		instantTextBoxType = {
+			name = "NO"
+			position = { x = 375 y = 830 }
+			font = "hoi4_typewriter22"
+			#"hoi4_typewriter16"
+			borderSize = {x = 0 y = 0}
+			text = "NORTHAMERICA_NAME"
+			maxWidth = 40
+			maxHeight = 30
+			format = centre
+		}
+
+		instantTextBoxType = {
+			name = "SO"
+			position = { x = 375 y = 1010 }
+			font = "hoi4_typewriter22"
+			#"hoi4_typewriter16"
+			borderSize = {x = 0 y = 0}
+			text = "SOUTHAMERICA_NAME"
+			maxWidth = 40
+			maxHeight = 30
+			format = centre
+		}
+
 		ButtonType = {
 			name = "back_button"
-			position = { x = 30 y = -57 }
+			position = { x = 900 y = -57 }
 			quadTextureSprite ="GFX_button_221x34"
 			buttonText = "BACK"
 			buttonFont = "hoi_18mbs"
@@ -589,7 +663,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "select_button"
-			position = { x = -252 y = -57 }
+			position = { x = -750 y = -57 }
 			quadTextureSprite ="GFX_button_221x34"
 			buttonText = "FE_SELECT_SCENARIO"
 			buttonFont = "hoi_18mbs"
@@ -627,11 +701,11 @@ guiTypes = {
 
 		ButtonType = {
 			name = "back_button"
-			position = { x = -158 y = -52 }
-			quadTextureSprite ="GFX_button_148x34"
+			position = { x = 900 y = 306 }
+			quadTextureSprite ="GFX_button_221x34"
 			buttonText = "BACK"
 			buttonFont = "hoi_18mbs"
-			Orientation = "CENTER_DOWN"
+			Orientation = "LOWER_LEFT"
 			clicksound = click_close
 			oversound = ui_menu_over
 			shortcut = "ESCAPE"
@@ -639,11 +713,11 @@ guiTypes = {
 
 		ButtonType = {
 			name = "select_button"
-			position = { x = 10 y = -52 }
-			quadTextureSprite ="GFX_button_148x34"
+			position = { x = -55 y = 306 }
+			quadTextureSprite ="GFX_button_221x34"
 			buttonText = "FE_SELECT_COUNTRY"
 			buttonFont = "hoi_18mbs"
-			Orientation = "CENTER_DOWN"
+			Orientation = "LOWER_RIGHT"
 			clicksound = click_default
 			oversound = ui_menu_over
 			shortcut = "RETURN"
