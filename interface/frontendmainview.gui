@@ -315,7 +315,7 @@ guiTypes = {
 			font = "hoi_18b"
 			borderSize = {x = 0 y = 0}
 			text = "ALPHA"	
-			format = centre
+			format = "LOWER_RIGHT"
 			maxWidth = 250
 			maxHeight = 20	
 		}

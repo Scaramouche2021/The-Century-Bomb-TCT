@@ -572,7 +572,7 @@ guiTypes = {
 			font = "hoi_20b"
 			#"hoi4_typewriter16"
 			borderSize = {x = 0 y = 0}
-			maxWidth = 200
+			maxWidth = 470
 			maxHeight = 30
 			format = left
 		}
@@ -583,7 +583,7 @@ guiTypes = {
 			font = "hoi4_typewriter22"
 			#"hoi4_typewriter16"
 			borderSize = {x = 0 y = 0}
-			text = "AFRICA_NAME"
+			text = "AFRICA_NA"
 			maxWidth = 40
 			maxHeight = 30
 			format = centre
@@ -595,7 +595,7 @@ guiTypes = {
 			font = "hoi4_typewriter22"
 			#"hoi4_typewriter16"
 			borderSize = {x = 0 y = 0}
-			text = "ASIA_NAME"
+			text = "ASIA_NA"
 			maxWidth = 40
 			maxHeight = 30
 			format = centre
@@ -607,7 +607,7 @@ guiTypes = {
 			font = "hoi4_typewriter22"
 			#"hoi4_typewriter16"
 			borderSize = {x = 0 y = 0}
-			text = "EUROPR_NAME"
+			text = "EUROPR_NA"
 			maxWidth = 40
 			maxHeight = 30
 			format = centre
@@ -619,7 +619,7 @@ guiTypes = {
 			font = "hoi4_typewriter22"
 			#"hoi4_typewriter16"
 			borderSize = {x = 0 y = 0}
-			text = "MIDDLEEAST_NAME"
+			text = "MIDDLEEAST_NA"
 			maxWidth = 40
 			maxHeight = 30
 			format = centre
@@ -631,7 +631,7 @@ guiTypes = {
 			font = "hoi4_typewriter22"
 			#"hoi4_typewriter16"
 			borderSize = {x = 0 y = 0}
-			text = "NORTHAMERICA_NAME"
+			text = "NORTHAMERICA_NA"
 			maxWidth = 40
 			maxHeight = 30
 			format = centre
@@ -643,7 +643,7 @@ guiTypes = {
 			font = "hoi4_typewriter22"
 			#"hoi4_typewriter16"
 			borderSize = {x = 0 y = 0}
-			text = "SOUTHAMERICA_NAME"
+			text = "SOUTHAMERICA_NA"
 			maxWidth = 40
 			maxHeight = 30
 			format = centre
