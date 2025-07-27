@@ -10,6 +10,7 @@ state={
 		victory_points = {
 			5216 1
 		}
+
 	}
 	impassable = yes
 	manpower=69488

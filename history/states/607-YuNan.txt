@@ -1,0 +1,29 @@
+
+state={
+	id=607
+	name="YuNan"#Heinan
+	manpower=34289800
+	
+	state_category = town
+	
+	buildings_max_level_factor=1.000
+
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 2
+		}
+		victory_points = {
+			10434 1 
+		}
+	}
+
+	provinces={
+		4158 4519 4547 7459 7568 10434 10446 12426 
+	}
+
+	local_supplies=3.0 
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=1232
+	name="YuXi"#Heinan
+	manpower=6859760
+	
+	state_category = town
+	
+	buildings_max_level_factor=1.000
+
+	history={
+		owner = CHI
+		add_core_of = PRC
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 2
+		}
+		victory_points = {
+			11931 1 
+		}
+	}
+
+	provinces={
+		1603 6932 11931 
+	}
+
+	local_supplies=3.0 
+}

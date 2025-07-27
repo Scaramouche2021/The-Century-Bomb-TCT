@@ -1,24 +1,24 @@
 state=
 {
-	id=743
-	name="STATE_743"
-	manpower = 385000
-	state_category = large_town
+	id=1235
+	name="JiaoBei"#Shandong
+	manpower = 9593300
+	state_category = town
 	
 	
 	history=
 	{
 		owner = CHI
-		add_core_of = CHI
 		add_core_of = PRC
+		add_core_of = CHI
 		victory_points = {
-			10000 5 
+			11962 1 
 		}
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 1
 			air_base = 1
-			10000 = {
+			11962 = {
 				naval_base = 5
 				coastal_bunker = 1
 				bunker = 1
@@ -28,7 +28,7 @@ state=
 
 	}
 	provinces={
-		10000
+		1084 7160 7189 9987 11933 11962 12093
 	}
 
 	local_supplies=0.0 

@@ -1,0 +1,40 @@
+state=
+{
+	id=743
+	name="JiaoDong"#Shandong
+	manpower = 9593300
+	state_category = large_town
+	
+	
+	history=
+	{
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		victory_points = {
+			10000 5 
+		}
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 1
+			air_base = 1
+			10000 = {
+				naval_base = 5
+				coastal_bunker = 1
+				bunker = 1
+			}
+			4205 = {
+				naval_base = 2
+				coastal_bunker = 1
+				bunker = 1
+			}
+		}
+
+
+	}
+	provinces={
+		1104 1184 1200 4157 4186 4205 7105 10000 10018
+	}
+
+	local_supplies=0.0 
+}

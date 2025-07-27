@@ -1,0 +1,27 @@
+state= {
+	id=1226
+	name="ShaanBei"
+	manpower = 130888
+	
+	state_category = town
+	
+	history= {
+		owner = CHI
+		add_core_of = PRC
+		add_core_of = CHI
+
+		victory_points = {
+			7314 1
+		}
+		buildings = {
+			infrastructure = 2 #was 3
+			arms_factory = 1
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		1458 7314 7659 10880 
+	}
+
+	local_supplies=0.0 
+}

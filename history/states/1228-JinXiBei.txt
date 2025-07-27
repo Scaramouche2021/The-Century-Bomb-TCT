@@ -1,0 +1,27 @@
+state= {
+	id=1228
+	name="JinXiBei"#Shanxi
+	manpower = 2320200
+	
+	state_category = town
+	
+	history= {
+		owner = CHI
+		add_core_of = PRC
+		add_core_of = CHI
+
+		victory_points = {
+			10367 1
+		}
+		buildings = {
+			infrastructure = 2 #was 3
+			arms_factory = 1
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		1531 4074 4174 10367 12300 
+	}
+
+	local_supplies=0.0 
+}

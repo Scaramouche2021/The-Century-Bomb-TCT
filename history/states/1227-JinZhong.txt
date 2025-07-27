@@ -1,0 +1,27 @@
+state= {
+	id=1227
+	name="JinZhong"#Shanxi
+	manpower = 2320200
+	
+	state_category = town
+	
+	history= {
+		owner = CHI
+		add_core_of = PRC
+		add_core_of = CHI
+
+		victory_points = {
+			12344 3
+		}
+		buildings = {
+			infrastructure = 2 #was 3
+			arms_factory = 1
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		1203 1519 4469 4538 12078 12344 
+	}
+
+	local_supplies=0.0 
+}

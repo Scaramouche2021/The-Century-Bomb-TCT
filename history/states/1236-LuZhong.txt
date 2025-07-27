@@ -1,0 +1,35 @@
+state=
+{
+	id=1236
+	name="LuZhong"#Shandong
+	manpower = 9593300
+	state_category = town
+	
+	
+	history=
+	{
+		owner = CHI
+		add_core_of = PRC
+		add_core_of = CHI
+		victory_points = {
+			10072 1 
+		}
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 1
+			air_base = 1
+			10072 = {
+				naval_base = 5
+				coastal_bunker = 1
+				bunker = 1
+			}
+		}
+
+
+	}
+	provinces={
+		1069 1154 4037 4071 4089 7055 7089 10072 10102 12045 12074
+	}
+
+	local_supplies=0.0 
+}
