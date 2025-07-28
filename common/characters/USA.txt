@@ -1,0 +1,164 @@
+characters = {
+	USA_charles_harting_percy = {
+		name = USA_charles_harting_percy
+		portraits = {
+			civilian = {
+				large = GFX_portraits_USA_charles_harting_percy
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {
+				percys_new_deal
+				politician_in_arms_race
+				wonder_maker
+			}
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+
+	USA_enterprise_assembly = {
+		name = USA_enterprise_assembly
+		portraits = {
+			civilian = {
+				small = GFX_portraits_USA_enterprise_assembly_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = USA
+			}
+			idea_token = enterprise_assembly
+			traits = {
+				enterprise_assembly
+			}
+		}
+	}
+
+	USA_federal_reserve = {
+		name = USA_federal_reserve
+		portraits = {
+			civilian = {
+				small = GFX_portrait_USA_federal_reserve
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = USA
+			}
+			idea_token = federal_reserve
+			traits = {
+				giant_union_bank
+			}
+		}
+	}
+
+	USA_william_jefferson_clinton = {
+		name = USA_william_jefferson_clinton
+		portraits = {
+			civilian = {
+				small = GFX_portrait_USA_william_jefferson_clinton
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = USA
+			}
+			idea_token = william_jefferson_clinton
+			traits = {
+				century_blues
+			}
+		}
+	}
+
+	USA_hillary_clinton = {
+		name = USA_hillary_clinton
+		portraits = {
+			small = GFX_portrait_USA_hillary_clinton
+		}
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = USA
+			}
+			idea_token = hillary_clinton
+			traits = {
+				break_the_glass_ceiling
+			}
+		}
+	}
+
+	USA_george_walker_bush = {
+		name = USA_george_walker_bush
+		portraits = {
+			small = GFX_portrait_USA_george_walker_bush
+		}
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = USA
+			}
+			idea_token = george_walker_bush
+			traits = {
+				modern_crusaders
+			}
+		}
+	}
+
+	USA_joint_chiefs_of_staff = {
+		name = USA_joint_chiefs_of_staff
+		portraits = {
+			small = GFX_portrait_USA_joint_chiefs_of_staff
+		}
+		advisor = {
+			slot = high_command
+			allowed = {
+				original_tag = USA
+			}
+			idea_token = joint_chiefs_of_staff
+			traits = {
+				patriots
+			}
+		}
+	}
+
+	USA_donald_john_trump = {	
+		name = USA_donald_john_trump
+		portraits = {
+			small = GFX_portrait_USA_donald_john_trump
+		}
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = USA
+			}
+			idea_token = donald_john_trump
+			traits = {
+				big_entrepreneur
+			}
+		}
+	}
+
+	USA_the_congress = {
+		name = USA_the_congress
+		portraits = {
+			civilian = {
+				large = GFX_portrait_USA_the_congress
+			}
+		}
+		country_leader = {
+			traits = {
+				patriot_cabinet
+			}
+			expire = "9999.1.1.1"
+		}
+	}
+
+}
+
+
+

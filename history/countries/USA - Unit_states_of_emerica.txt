@@ -29,3 +29,11 @@ set_popularities = {
 	democratic = 25
 }
 
+recruit_character = USA_charles_harting_percy
+recruit_character = USA_enterprise_assembly
+recruit_character = USA_federal_reserve
+recruit_character = USA_william_jefferson_clinton
+recruit_character = USA_hillary_clinton
+recruit_character = USA_george_walker_bush
+recruit_character = USA_joint_chiefs_of_staff
+recruit_character = USA_donald_john_trump
